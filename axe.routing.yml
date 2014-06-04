@@ -1,0 +1,7 @@
+axe.build:
+  path: '/chop'
+  defaults:
+    _content: '\Drupal\axe\Controller\AxeController::build'
+    _title: 'Cutting down branches one twig at a time'
+  requirements:
+    _permission: 'access content'
